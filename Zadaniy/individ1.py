@@ -188,7 +188,6 @@ def main(command_line=None):
         people = []
 
     # Добавить человека.
-
     if args.command == "add":
         people = add_human(
             people,
